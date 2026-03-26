@@ -1,0 +1,166 @@
+# =========================
+# OS / filesystem junk
+# =========================
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.DocumentRevisions-V100
+.TemporaryItems
+.VolumeIcon.icns
+.apdisk
+Icon?
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =========================
+# Editor / IDE junk
+# =========================
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+*.suo
+*.user
+*.userossc
+*.rsuser
+*.sln.docstates
+
+# Vim
+*.swp
+*.swo
+*~
+
+# JetBrains
+.idea_modules/
+
+# VS Code test / cache
+.vscode-test/
+
+# =========================
+# Logs / debug crap
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =========================
+# Node / package manager
+# =========================
+node_modules/
+.npm/
+.pnpm-store/
+.pnp/
+.pnp.js
+.yarn/*
+!.yarn/patches/
+!.yarn/plugins/
+!.yarn/releases/
+!.yarn/sdks/
+!.yarn/versions/
+
+# Optional Yarn files often safe to ignore in simple repos
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# =========================
+# Build output / compiled files
+# =========================
+dist/
+build/
+out/
+coverage/
+lib/
+tmp/
+temp/
+.cache/
+.cache-loader/
+.parcel-cache/
+.rpt2_cache/
+.rts2_cache_*/
+.sass-cache/
+.eslintcache
+.stylelintcache
+
+# Framework / tooling
+.next/
+.nuxt/
+.vercel/
+.netlify/
+.vite/
+vite.svg
+.turbo/
+.angular/
+.svelte-kit/
+
+# =========================
+# Test output
+# =========================
+.nyc_output/
+junit.xml
+playwright-report/
+test-results/
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# =========================
+# TypeScript / transpiler
+# =========================
+*.tsbuildinfo
+
+# =========================
+# Runtime files
+# =========================
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# =========================
+# Archives / random crap
+# =========================
+*.tgz
+*.gz
+*.zip
+*.7z
+*.rar
+*.bak
+*.tmp
+*.temp
+*.orig
+*.rej
+
+# =========================
+# Local databases / storage
+# =========================
+*.sqlite
+*.sqlite3
+*.db
+
+# =========================
+# macOS metadata in subfolders
+# =========================
+**/.DS_Store
+**/.AppleDouble
+**/._*
