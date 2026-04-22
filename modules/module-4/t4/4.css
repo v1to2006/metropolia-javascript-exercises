@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#results {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+article {
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+img {
+  display: block;
+  width: 210px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
